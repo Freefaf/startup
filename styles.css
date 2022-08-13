@@ -1,0 +1,135 @@
+* {box-sizing: border-box}
+body{
+  background-color: #92B4EC;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+   padding-top: -20px;
+}
+.modal-content {
+  text-align: center;
+  background-color: #54BAB9;
+  margin: 5% auto 15% auto;
+  border: 1px
+}
+ .signin{
+   position: relative;
+   left:30%;
+   font-size: 1.25em;
+ }
+
+
+  input[type=text], input[type=password] {
+
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+button {
+  position: relative;
+  left :50%;
+  background-color: #18978F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%%;
+  opacity: 0.9;
+}
+
+
+
+button:hover {
+  opacity:1;
+}
+.Sign-up{
+  position: relative;
+  left: 45%;
+ font-size: 1em;
+}
+
+ .signupbtn {
+
+  width: 20%;
+  position: relative;
+  left: 2%
+}
+
+
+.container {
+  padding: 16px;
+}
+.signupmain{
+  position: relative;
+  left: 50%;
+}
+.signup {
+  border-radius: 25px;
+  border-right: 25px;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+  top: 0%;
+  width:40%;
+  height:100%;
+  overflow: auto;
+  background-color: #54BAB9;
+}
+
+.signup-content {
+  background-color: #9ED2C6;
+  margin: auto auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+.signupele{
+  font-size: 1.25em;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}

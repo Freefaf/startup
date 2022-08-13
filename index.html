@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Startup problem</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+ <h1> Sign in to our website </h1>
+ <hr>
+  <form>
+  <div class="signin" id="Signin"
+ <p><label for="name" placeholder="Enter Company name"> Company name :</label></p>
+<p>  <input type="text" class="name" name="name"></p>
+<p>  <label for="pasword " placeholder="Enter password"> Password : </label></p>
+<p>  <input type="password" class="name" name="password"></p></div>
+  <button type="button" name="button">Sign in</button>
+</form>
+<p id="error"></p>
+
+<p class="Sign-up">Not registered? Sign up to register</p>
+<button onclick="document.getElementById('Signup').style.display='block'" style="width:auto;">Sign up</button>
+<div class="signup" id="Signup">
+<span onclick="document.getElementById('Signup').style.display='none'" class="close" title="Close Modal">&times;</span>
+<form class="modal-content">
+     <div class="container">
+       <h1>Sign Up</h1>
+       <hr>
+
+      <p class="signupele"><label for="Companyname"><b>Company name</b></label></p>
+      <p class="signupele"><input type="text" placeholder="Enter Company name" name="paswor" required></p>
+      <p class="signupele"><label for="psw"><b>Password</b></label><br>
+      <p class="signupele"><input type="password" placeholder="Enter Password" name="password" required></p>
+      <p class="signupele"><label for="psw-repeat"><b>Repeat Password</b></label><br>
+      <p class="signupele"><input type="password" placeholder="Repeat Password" name="paswor-repeat" required></p>
+      <p class="signupele"><label>
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+       </label></p> </div>
+      <p><button type="submit" class="signupbtn">Sign Up</button></p>
+
+<script src="app.js" charset="utf-8"></script> >
+
+
+  </body>
+</html>
